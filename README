@@ -1,6 +1,0 @@
-
-- foo.js is a module, reqwest.js is a third party module
-- foo.js requires reqwest.js
-- bar.js requires foo.js
-
-
