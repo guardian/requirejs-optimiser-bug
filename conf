@@ -1,0 +1,14 @@
+{
+    "baseUrl": ".",
+    "appDir": "./js",
+    "dir": "./tmp",
+    "paths": {
+        "reqwest": "vendor/reqwest"
+    },
+    "optimize": "none",
+    "modules": [
+        {
+            "name": "bar"
+        }
+    ]
+}
