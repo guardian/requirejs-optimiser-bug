@@ -1,4 +1,3 @@
-
 - foo.js is a module, reqwest.js is a third party module
 - foo.js requires reqwest.js
 - bar.js requires foo.js
@@ -10,7 +9,7 @@ npm -g install requirejs
 ./test.sh
 ```
 
-Contents of tmp/bar.js after the compilation,
+Contents of **tmp/bar.js** after the compilation,
 
 ``` 
 !function (name, definition) {    <----- i. the original 'reqwest' module
